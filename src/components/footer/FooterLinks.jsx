@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, ListGroup } from 'react-bootstrap';
+import styles from '../../styles/footerLinks.module.css';
 
 const groups = [
   {
@@ -81,14 +82,20 @@ const groups = [
 
 const FooterLinks = () => {
   return (
-    <div>
+    <div className={styles.linksGroup}>
       {groups.map((group, index) => {
         return (
-          <Card style={{ width: '18rem' }}>
-            <Card.Header>{group.title}</Card.Header>
+          <Card className={styles.linksCard}>
+            <Card.Header className={styles.linkGroupTitle}>
+              {group.title}
+            </Card.Header>
             <ListGroup variant='flush'>
               {group.items.map((item, indx) => {
-                return <ListGroup.Item>{item.text}</ListGroup.Item>;
+                return (
+                  <ListGroup.Item className={styles.linkItem}>
+                    <a href=''>{item.text}</a>
+                  </ListGroup.Item>
+                );
               })}
             </ListGroup>
           </Card>

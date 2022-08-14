@@ -1,0 +1,36 @@
+.companiesContainer {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 50px 5px;
+}
+
+.imagesWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.imageBox strong {
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 22px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+
+    text-align: justify;
+    letter-spacing: 0.1em;
+
+    /* text */
+
+    color: #474747;
+}
