@@ -1,18 +1,13 @@
 import React from 'react';
 import { Card, ListGroup } from 'react-bootstrap';
 import SchoolBoys from '../../assets/images/schoolBoys.jpg';
-import SimpleBlueLogo from '../../assets/logos/simpleBlueLogo.svg';
-import Shape1 from '../../assets/others/shape1.svg';
+import Divider from '../divider/Divider';
 
 const CSR = () => {
   return (
     <div>
       <h2>Corporate Social Responsibility</h2>
-      <div>
-        <img src={Shape1} alt='Shape' />
-        <img src={SimpleBlueLogo} alt='Simple blue logo' />
-        <img src={Shape1} alt='Shape' />
-      </div>
+      <Divider />
       <div>
         <div>
           <Card style={{ width: '18rem' }}>

@@ -5,6 +5,7 @@ import Clock from '../../assets/others/clock.svg';
 import Donation from '../../assets/others/donation.svg';
 import Friendship from '../../assets/others/friendship.svg';
 import Star from '../../assets/others/star.svg';
+import styles from '../../styles/aboutCards.module.css';
 
 const allCards = [
   {
@@ -27,18 +28,24 @@ const allCards = [
 
 function AboutCards() {
   return (
-    <Row xs={1} md={2} className='g-4'>
-      {allCards.map((card, idx) => (
-        <Col>
-          <Card>
-            <Card.Img variant='top' src={card.icon} />
-            <Card.Body>
-              <Card.Text>{card.text}</Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
+    <div className={styles.aboutCardsContainer}>
+      <Row
+        style={{ maxWidth: '100%', margin: '0' }}
+        xs={1}
+        md={2}
+        className='g-4'>
+        {allCards.map((card, idx) => (
+          <Col>
+            <Card className={styles.aboutCard}>
+              <Card.Img className={styles.icon} variant='top' src={card.icon} />
+              <Card.Body>
+                <Card.Text className={styles.cardText}>{card.text}</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </div>
   );
 }
 

@@ -1,18 +1,13 @@
 import React from 'react';
 import { Card, ListGroup } from 'react-bootstrap';
 import GiftBox from '../../assets/images/giftbox.jpg';
-import SimpleBlueLogo from '../../assets/logos/simpleBlueLogo.svg';
-import Shape1 from '../../assets/others/shape1.svg';
+import Divider from '../divider/Divider';
 
 const Mission = () => {
   return (
     <div>
       <h2>MISSION</h2>
-      <div>
-        <img src={Shape1} alt='Shape' />
-        <img src={SimpleBlueLogo} alt='Simple blue logo' />
-        <img src={Shape1} alt='Shape' />
-      </div>
+      <Divider />
       <div>
         <div>
           <img src={GiftBox} alt='Gift box' />
