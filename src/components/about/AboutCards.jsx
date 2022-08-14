@@ -10,7 +10,7 @@ import styles from '../../styles/aboutCards.module.css';
 const allCards = [
   {
     icon: Clock,
-    text: 'Our track record has been impeccable with project completion on time and have surpassed expectations many a time, society members have positively received our redevelopment plans and encourage our modern and urbane designs to their neighbors.',
+    text: 'Our track record has been impeccable with project completion on time and have surpassed expectations many a time, society members have positively received our redevelopment plans and encourage our modern and urbane designs.',
   },
   {
     icon: Star,
@@ -38,9 +38,7 @@ function AboutCards() {
           <Col>
             <Card className={styles.aboutCard}>
               <Card.Img className={styles.icon} variant='top' src={card.icon} />
-              <Card.Body>
-                <Card.Text className={styles.cardText}>{card.text}</Card.Text>
-              </Card.Body>
+              <Card.Text className={styles.cardText}>{card.text}</Card.Text>
             </Card>
           </Col>
         ))}

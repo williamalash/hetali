@@ -12,3 +12,11 @@
     height: 100%;
     object-fit: fill;
 }
+
+
+
+.nav_item div {
+    height: 2px;
+    width: 30px;
+    background: linear-gradient(90deg, #0F497E 0%, #53CAF5 109.3%);
+}

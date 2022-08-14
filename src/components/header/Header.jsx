@@ -18,13 +18,34 @@ function Header() {
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='me-auto' />
           <Nav>
-            <Nav.Link href='#features'>ABOUT US</Nav.Link>
-            <Nav.Link href='#features'>PROJECTS</Nav.Link>
-            <Nav.Link href='#features'>DIVERSIFICATION</Nav.Link>
-            <Nav.Link href='#features'>OUR PROCESS</Nav.Link>
-            <Nav.Link href='#features'>TESTIMONIALS</Nav.Link>
-            <Nav.Link href='#features'>CAREERS</Nav.Link>
-            <Nav.Link href='#features'>CONTACT US</Nav.Link>
+            <Nav.Link className={styles.nav_item} href='#features'>
+              ABOUT US
+              <div></div>
+            </Nav.Link>
+            <Nav.Link className={styles.nav_item} href='#features'>
+              PROJECTS
+              <div></div>
+            </Nav.Link>
+            <Nav.Link className={styles.nav_item} href='#features'>
+              DIVERSIFICATION
+              <div></div>
+            </Nav.Link>
+            <Nav.Link className={styles.nav_item} href='#features'>
+              OUR PROCESS
+              <div></div>
+            </Nav.Link>
+            <Nav.Link className={styles.nav_item} href='#features'>
+              TESTIMONIALS
+              <div></div>
+            </Nav.Link>
+            <Nav.Link className={styles.nav_item} href='#features'>
+              CAREERS
+              <div></div>
+            </Nav.Link>
+            <Nav.Link className={styles.nav_item} href='#features'>
+              CONTACT US
+              <div></div>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
