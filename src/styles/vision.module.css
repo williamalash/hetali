@@ -1,0 +1,28 @@
+.visionContainer {
+    background-color: black;
+    margin: 80px auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.visionContainer h2 {
+    color: #FAFAFA;
+}
+
+.visionText {
+    width: 90%;
+    max-width: 680px;
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FAFAFA;
+    font-stretch: 132;
+    font-variation-settings: 'GRAD'0, 'slnt'-5, 'XTRA'468, 'XOPQ'96, 'YOPQ'79, 'YTLC'514, 'YTUC'712, 'YTAS'750, 'YTDE'-203, 'YTFI'738;
+    margin: 0 auto;
+}

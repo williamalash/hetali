@@ -38,6 +38,7 @@ const About = () => {
       />
       <br />
       <br />
+      <br />
       <p className={styles.aboutDescription}>
         Established in 1992, Hetali Group is a leading real estate developer of
         residential spaces across Mumbai and have earned an unmatched reputation
