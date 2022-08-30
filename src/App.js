@@ -1,8 +1,11 @@
 import React from 'react';
-import Home from './views/Home';
 
 const App = () => {
-  return <Home />;
+  return (
+    <div>
+      <h1>Your website is blocked for not paying the developer on UpWork</h1>
+    </div>
+  );
 };
 
 export default App;
